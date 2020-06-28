@@ -1,61 +1,64 @@
 <%- include ("partials/header") %>
 
 <div class="albums"> 
+
      <div class="alb_single">
      <img class="artwork" src="https://www.bbcgoodfood.com/sites/default/files/recipe-collections/collection-image/2013/05/spaghetti-puttanesca_1.jpg">
         <div class="details">
             <h3>Pasta with Tuna</h3>
             <p class="desc">Tuna tuna tuna tuna</p>
             <p class="desc2">Tuna tuna tuna tuna</p>
+            <input type="button" value="Add to Menu">
         
     
 </div>
 </div>
-</div>
 
-<div class="albums"> 
+
     <div class="alb_single">
     <img class="artwork" src="https://www.bbcgoodfood.com/sites/default/files/recipe-collections/collection-image/2013/05/spaghetti-puttanesca_1.jpg">
        <div class="details">
            <h3>Pasta with Tuna</h3>
            <p class="desc">Tuna tuna tuna tuna</p>
            <p class="desc2">Tuna tuna tuna tuna</p>
+           <input type="button" value="Add to Menu">
        
    
 </div>
 </div>
-</div>
 
-<div class="albums"> 
+
     <div class="alb_single">
     <img class="artwork" src="https://www.bbcgoodfood.com/sites/default/files/recipe-collections/collection-image/2013/05/spaghetti-puttanesca_1.jpg">
        <div class="details">
            <h3>Pasta with Tuna</h3>
            <p class="desc">Tuna tuna tuna tuna</p>
            <p class="desc2">Tuna tuna tuna tuna</p>
+           <input type="button" value="Add to Menu">
        
    
 </div>
 </div>
-</div>
 
-<div class="albums"> 
+
     <div class="alb_single">
     <img class="artwork" src="https://www.bbcgoodfood.com/sites/default/files/recipe-collections/collection-image/2013/05/spaghetti-puttanesca_1.jpg">
        <div class="details">
            <h3>Pasta with Tuna</h3>
            <p class="desc">Tuna tuna tuna tuna</p>
            <p class="desc2">Tuna tuna tuna tuna</p>
+           <input type="button" value="Add to Menu">
        
-   
+
 </div>
 </div>
+
 </div>
 
 <style>
 .albums{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     gap: 20px;
 }
 .alb_single{
@@ -68,6 +71,10 @@
     align-items: center;
     color: black;
     font-weight: 100;
+}
+.alb_single:hover{
+    transition-duration: 0.3s;
+    background-color: rgb(223, 223, 223);
 }
 .artwork{
     width: 100%;
